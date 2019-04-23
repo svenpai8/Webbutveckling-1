@@ -61,14 +61,14 @@ nav {
 
 
 .dropdown:hover .dropdown-content {
-	display: : block;
+	display: block;
 }
 
 
 
 
 .dropdown:hover .dropbtn {
-	background-color: black;
+	background-color: yellow;
 }
 
 @media only screen and (max-width: 800px) {
