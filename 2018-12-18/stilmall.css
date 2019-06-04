@@ -1,5 +1,5 @@
 body {
-
+background: orange;
 	margin: 0;
 }
 
@@ -10,36 +10,29 @@ body {
 	flex-direction: row;
 }
 
-.vanster,
-.hoger {
-
-	display: flex;
-
-	flex-direction: column;
-
-	padding: 10px;
+.mitten {
+	width:40%;
+	height:100%;
 	background-color: black;
+	display:flex;
+	flex-direction: row;
 }
 
-
-
-
 .vanster {
-	flex-basis: 150%;
+	width:20%;
+	height:100%;
 	background-color: orange;
 	font-family: remington_reseskrivmaskinRg;
 	font-size: 14px;
+	display:flex;
+	flex-direction: row;
 }
 
 .hoger {
-	flex-basis: 50%;
+	width:40%;
+	height:100%;
 	background-color: yellow;
 	font-family: 'Shadows Into Light', cursive;
-}
-
-@media only screen and (max-width: 800px) {
-	.content {
-
-		flex-direction: column;
-	}
+	display:flex;
+	flex-direction: row;
 }
